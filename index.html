@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Vite + React</title>
+  </head>
+  <body class="bg-[rgb(59,70,100)] text-gray-200 flex justify-center items-center h-[100vh]">
+    <div class="h-[70vh] w-[30vw] flex flex-col gap-[10px] rounded-[30px]" >
+      <div class="h-[10%] w-[30] flex justify-between items-center gap-10 font-bold rounded-[10px]" id="box">CALC
+        <div class="flex flex-row gap-2.5 items-center">
+          <p>Theme</p>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-12 h-6 bg-gray-300 rounded-full peer-checked:bg-red-500 transition"></div>
+            <div class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full shadow transition peer-checked:translate-x-6"></div>
+        </label>
+        </div>
+      </div>
+      <div class="h-[20%] bg-[#191f32] flex justify-end font-bold items-center text-5xl pr-5 rounded-[10px]" id="box"><p>2345627</p> </div>
+      <div class="h-[66%] bg-[#252d44] grid grid-rows-5 grid-cols-4 gap-4 p-[20px] rounded-[20px] text-gray-900" id="box">
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">7</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">8</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">9</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">Del</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">4</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">5</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">6</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">+</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">1</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">2</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">3</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">-</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">.</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">0</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">/</button>
+        <button class="bg-gray-300 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300">*</button>
+        <button class="bg-blue-600 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300 col-start-1 col-end-3 ">Reset</button>
+        <button class="bg-red-500 flex justify-center items-center rounded-[5px] hover:cursor-pointer hover:scale-105 active:bg-amber-300 col-start-3 col-end-5">=</button>
+      </div>
+    </div>
+  </body>
+</html>
